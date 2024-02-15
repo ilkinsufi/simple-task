@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1039px) {
+  nav {
+    display: none;
+  }
+  .log > button {
+    display: none;
+  }
+  .fa-burger {
+    display: block !important;
+  }
+  h1 {
+    font-size: 30px !important;
+  }
+  .categories ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 532px) {
+  .categories ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .examContainer .left {
+    position: static;
+  }
+  .examContainer {
+    flex-wrap: wrap;
+  }
+  .examContainer .left {
+    width: 100%;
+  }
+  .examContainer .right {
+    justify-content: center;
+  }
+}
